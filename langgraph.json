@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "kind": "app",
+  "type": "workflow",
+  "metadata": {
+    "id": "demo-workflow-app",
+    "name": "Hello LangGraph",
+    "description": "Minimal LangGraph demo"
+  },
+  "workflow": {
+    "nodes": [
+      { "id": "start", "type": "start" },
+      { "id": "end", "type": "end" }
+    ],
+    "edges": [
+      { "source": "start", "target": "end" }
+    ]
+  }
+}
